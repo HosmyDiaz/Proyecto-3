@@ -1175,3 +1175,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  distancia_Stop: 1
+  distancia_Back: 1
