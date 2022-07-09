@@ -27,6 +27,7 @@ public class SoldierController : MonoBehaviour
     {
         //Movimiento (A y D)
         Animator.SetBool("Jumping", false);
+        Animator.SetBool("Brunch", false);
         Horizontal = Input.GetAxisRaw("Horizontal");
         if (Horizontal < 0.0f)
         {
@@ -58,6 +59,16 @@ public class SoldierController : MonoBehaviour
         {
             Shoot();
             CD = Time.time;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            Animator.SetBool("Brunch", true);
+            Horizontal = Input.GetAxisRaw("Horizontal")*0;
+        }
+        else
+        {
+            Animator.SetBool("Brunch", false);
         }
 
         //Intento de poner pausa

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c172192529c09449b589cfe3eab5496
+guid: 04ea1c342e970d347a7c7d86e825a3ca
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gunner_Blue_Crouch_0
+      name: Gunner_Red_Run_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 2
         y: 9
-        width: 28
-        height: 33
+        width: 40
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070bc558b27022048859debaa8fe48f1
-      internalID: -1221601311
+      spriteID: fbc2b8ac72e87de43afd975fccdd7e29
+      internalID: 1236243767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gunner_Blue_Crouch_1
+      name: Gunner_Red_Run_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 9
-        width: 28
-        height: 33
+        x: 48
+        y: 10
+        width: 40
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f64ec6223169942b8f38fe0f551ae8
-      internalID: -1929525822
+      spriteID: 9068fcdfd7ff6f34cbc241d14f2ed11f
+      internalID: -1223465296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gunner_Blue_Crouch_2
+      name: Gunner_Red_Run_3
       rect:
         serializedVersion: 2
-        x: 109
-        y: 9
-        width: 28
-        height: 33
+        x: 97
+        y: 10
+        width: 40
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +172,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba8f39df7a467645a447621b53b3d30
-      internalID: -218344197
+      spriteID: 7afd4390b124015418f4f97a484841a6
+      internalID: -164915863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Red_Run_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 10
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e58c6c9d2b1c440b6438e25d678bfb
+      internalID: 525276651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Red_Run_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 10
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4fc35a15492bb4092f3fbab6dfc06d
+      internalID: 1256263678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Red_Run_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 9
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1f7abaecb51334c9b3ebaf489cd286
+      internalID: -1455436916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Red_Run_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 4
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbfbc5caf7d30f4585b5229e1e95cd9
+      internalID: -489968872
       vertices: []
       indices: 
       edges: []
@@ -189,9 +273,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gunner_Blue_Crouch_2: -218344197
-      Gunner_Blue_Crouch_0: -1221601311
-      Gunner_Blue_Crouch_1: -1929525822
+      Gunner_Red_Run_0: 1236243767
+      Gunner_Red_Run_7: -1455436916
+      Gunner_Red_Run_3: -164915863
+      Gunner_Red_Run_1: -1223465296
+      Gunner_Red_Run_6: 2146169397
+      Gunner_Red_Run_4: 525276651
+      Gunner_Red_Run_5: 1256263678
+      Gunner_Red_Run_2: -489968872
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

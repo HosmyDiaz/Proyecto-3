@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c172192529c09449b589cfe3eab5496
+guid: 98291f0da84448540aa7cf50b7932d35
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gunner_Blue_Crouch_0
+      name: Gunner_Red_Idle_0
       rect:
         serializedVersion: 2
         x: 12
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070bc558b27022048859debaa8fe48f1
-      internalID: -1221601311
+      spriteID: 53399c5d3dfa1bb41a6ede6f58eaccf9
+      internalID: -262169830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gunner_Blue_Crouch_1
+      name: Gunner_Red_Idle_1
       rect:
         serializedVersion: 2
         x: 60
@@ -151,17 +151,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f64ec6223169942b8f38fe0f551ae8
-      internalID: -1929525822
+      spriteID: f0faa7e9acad6904681a2e2c166531f5
+      internalID: -679403594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gunner_Blue_Crouch_2
+      name: Gunner_Red_Idle_2
       rect:
         serializedVersion: 2
-        x: 109
+        x: 108
         y: 9
         width: 28
         height: 33
@@ -172,8 +172,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba8f39df7a467645a447621b53b3d30
-      internalID: -218344197
+      spriteID: 377fb0560b1854a44820a5f99564c18a
+      internalID: -2077909398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Red_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 9
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03f84255342b5445aa70e20ffa7ca63
+      internalID: 240058698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Red_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 9
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef2c0d835fb28146a5b548e2fde6c02
+      internalID: -1743639593
       vertices: []
       indices: 
       edges: []
@@ -189,9 +231,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Gunner_Blue_Crouch_2: -218344197
-      Gunner_Blue_Crouch_0: -1221601311
-      Gunner_Blue_Crouch_1: -1929525822
+      Gunner_Red_Idle_4: -1743639593
+      Gunner_Red_Idle_2: -2077909398
+      Gunner_Red_Idle_3: 240058698
+      Gunner_Red_Idle_0: -262169830
+      Gunner_Red_Idle_1: -679403594
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
