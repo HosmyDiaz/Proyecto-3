@@ -12,6 +12,7 @@ public class NewEnemyController : MonoBehaviour
     private bool stop = false;
     public float distancia_Stop;
     public float distancia_Back;
+    public string tag_object;
 
     private void Awake()
     {
@@ -53,5 +54,12 @@ public class NewEnemyController : MonoBehaviour
             this.transform.localScale = new Vector2(-1, 1);
         }
 
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)     
+    {
+        if( collision.gameObject.CompareTag(tag_object) ){
+            Destroy(collision.gameObject);
+        }
     }
 }

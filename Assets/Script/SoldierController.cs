@@ -71,9 +71,8 @@ public class SoldierController : MonoBehaviour
             Animator.SetBool("Brunch", false);
         }
 
-        //Intento de poner pausa
 
-/*         if(Input.GetKeyDown(KeyCode.P))
+        if(Input.GetKeyDown(KeyCode.P))
         {
             if(isPaused == false)
             {
@@ -85,7 +84,7 @@ public class SoldierController : MonoBehaviour
                 gamePausedCanvas.gameObject.SetActive(false);
                 isPaused = false;
             }
-        } */
+        } 
     }
 
     void Jump()

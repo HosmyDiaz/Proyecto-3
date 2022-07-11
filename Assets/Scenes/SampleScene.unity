@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 128054492}
   - component: {fileID: 128054491}
   - component: {fileID: 128054493}
+  - component: {fileID: 128054494}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -234,6 +235,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &128054494
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128054490}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &343210584
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343210584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.781, y: -3.842, z: 0}
+  m_LocalPosition: {x: -7.78, y: -3.842, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -374,7 +396,7 @@ MonoBehaviour:
   JumpForce: 150
   Speed: 1
   BulletPrefab: {fileID: 7699224835708960094, guid: d022c2b9e5343084b8e2063440a0d85a, type: 3}
-  gamePausedCanvas: {fileID: 0}
+  gamePausedCanvas: {fileID: 1636729459}
 --- !u!95 &343210590
 Animator:
   serializedVersion: 4
@@ -449,7 +471,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.5
+  orthographic size: 0.65
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -473,7 +495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.69, y: -3.58, z: -10}
+  m_LocalPosition: {x: -6.57, y: -3.43, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -573,8 +595,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: -147.925}
-  m_SizeDelta: {x: 62.1105, y: 18.4925}
+  m_AnchoredPosition: {x: 0.0000076294, y: 99}
+  m_SizeDelta: {x: 428.8011, y: 131.0452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953735199
 MonoBehaviour:
@@ -589,7 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5981132, g: 0.7046988, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -598,16 +620,16 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 32
+    m_FontStyle: 3
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Pausado
 
@@ -1058,7 +1080,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!212 &1913590787
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1139,8 +1161,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.055467665, y: -0.0067459345}
-  m_Size: {x: 0.16906464, y: 0.3021901}
+  m_Offset: {x: -0.03, y: 0}
+  m_Size: {x: 0.27, y: 0.33}
   m_Direction: 0
 --- !u!95 &1913590790
 Animator:
@@ -1177,3 +1199,4 @@ MonoBehaviour:
   speed: 1
   distancia_Stop: 1
   distancia_Back: 1
+  tag_object: bullet
